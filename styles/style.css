@@ -1,0 +1,225 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #f8d21c;
+}
+
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.bg-image h1
+ {
+    text-stroke: 1px black; 
+    -webkit-text-stroke: 1px black; 
+}
+
+.bg-image:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s ease;
+}
+
+
+h1,h2{
+    font-weight: bold;
+    text-align: center;
+    text-stroke: 1px black; 
+    -webkit-text-stroke: 1px black;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f8d21c;
+}
+
+
+.card-container {
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+
+.custom-card {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    height: 80%;
+    width: 80%;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 1.8);
+}
+
+.custom-card img {
+    transition: opacity 0.3s ease;
+}
+
+.custom-card:hover img {
+    opacity: 0.7;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.custom-card:hover .card-overlay {
+    opacity: 1;
+}
+
+
+.btn-hover {
+    background-color: white;
+    color: black;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-hover:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.legal-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.legal-section h2{
+    text-stroke: 1px black; 
+    -webkit-text-stroke: 1px black;
+}
+
+.legal-section a {
+    color: #f8d21c;
+    text-decoration: none;
+}
+
+.legal-section a:hover {
+    text-decoration: underline;
+}
+.hero-reparaciones {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-reparaciones h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-stroke: 1px black;
+    -webkit-text-stroke: 1px black;
+}
+
+.hero-reparaciones p {
+    font-size: 1.2rem;
+}
+
+
+.reparaciones-section {
+    padding: 50px 20px;
+}
+
+.reparaciones-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    text-stroke: 1px black;
+    -webkit-text-stroke: 1px black;
+}
+
+.reparaciones-section p {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+ .reparaciones-section a{
+    color: color rgb(233, 178, 28);
+    text-decoration: none;
+}
+.reparaciones-section a:hover{
+    text-decoration: underline;
+    
+}
+
+
+.reparaciones-details {
+    margin-top: 50px;
+}
+
+.reparaciones-details h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.reparaciones-details .list-group-item {
+    font-size: 1.1rem;
+}
+
+.ratio {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+footer img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
